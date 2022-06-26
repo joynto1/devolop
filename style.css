@@ -15,6 +15,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -38,4 +39,24 @@ section {
 .banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-part img {
+    width: 100%;
+    padding-left: 10pxpx;
+
+}
+
+.dream-part {
+    width: 40%;
+    padding-right: 10%;
+
+
+}
+
+.second-button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, skyblue);
+    border-radius: 5px;
+    padding: 10px 40px;
 }
