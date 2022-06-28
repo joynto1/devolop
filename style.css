@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+
 }
 
 h1 {
@@ -44,7 +45,7 @@ p {
 
 .half-width img {
     width: 70%;
-    padding: 27%;
+    padding: 10%;
 
 }
 
