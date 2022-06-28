@@ -5,26 +5,47 @@ body {
 
 h1 {
     font-size: 50px;
-    color: rgba(0, 255, 136, 0.603);
+    color: rgb(28, 31, 29);
+    margin-left: 40px;
+    padding: 5px;
 
+
+}
+
+.half-width h3 {
+    background-image: linear-gradient(rgba(29, 243, 125, 0.788), rgba(78, 211, 182, 0.795));
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 5%;
+
+
+    padding: 10px 20px;
+
+}
+
+p {
+    padding: 5px;
 }
 
 .orange {
-    color: rgb(226, 214, 40);
+    color: rgb(231, 71, 7);
 }
 
-section {
+.flexiable-container {
     display: flex;
     margin-bottom: 100px;
+
 }
 
 .half-width {
     width: 50%;
     padding-left: 5%;
+
 }
 
 .half-width img {
-    width: 80%;
+    width: 70%;
     padding: 10%;
 
 }
@@ -42,16 +63,43 @@ section {
 }
 
 .dream-part img {
-    width: 100%;
-    padding-left: 10pxpx;
+    width: 90%;
+
+    padding-left: 50px;
 
 }
 
 .dream-part {
-    width: 40%;
+    width: 50%;
     padding-right: 10%;
 
 
+
+}
+
+.dream-part h2 {
+
+    padding: 10px 20px;
+    margin-left: 0;
+    margin-right: 30%;
+    border-radius: 5px;
+    background-image: linear-gradient(blue, tomato);
+
+}
+
+.dream-part h3 {
+
+    margin-left: 0;
+    margin-right: 20%;
+    padding: 5px 10px;
+    color: darkgoldenrod;
+
+}
+
+.part-two {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .second-button {
@@ -59,4 +107,62 @@ section {
     background-image: linear-gradient(tomato, skyblue);
     border-radius: 5px;
     padding: 10px 40px;
+}
+
+.half-last-part {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+
+}
+
+.experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#web {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, rgba(29, 190, 240, 0.548));
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+
+#webtwo {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, rgba(236, 4, 4, 0.548));
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+
+#web.half-last-part h2 {
+    color: rgba(220, 235, 225, 0.822);
+    background-image: linear-gradient(rgba(110, 23, 23, 0.822), blue);
+    margin-right: 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#web.half-last-part h3 {
+    color: rgb(107, 33, 97);
+}
+
+#webtwo.half-last-part h2 {
+    color: rgba(237, 241, 239, 0.822);
+    background-image: linear-gradient(rgba(105, 10, 10, 0.842), rgb(3, 3, 20));
+    margin-right: 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#webtwo.half-last-part h3 {
+    color: rgb(108, 30, 128);
+}
+
+footer {
+    text-align: center;
 }
