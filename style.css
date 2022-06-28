@@ -143,7 +143,7 @@ p {
     color: rgba(220, 235, 225, 0.822);
     background-image: linear-gradient(rgba(110, 23, 23, 0.822), blue);
     margin-right: 30%;
-    text-align: center;
+    padding: 5px;
     border-radius: 5px;
 }
 
@@ -153,9 +153,11 @@ p {
 
 #webtwo.half-last-part h2 {
     color: rgba(237, 241, 239, 0.822);
-    background-image: linear-gradient(rgba(105, 10, 10, 0.842), rgb(3, 3, 20));
-    margin-right: 30%;
-    text-align: center;
+    background-image: linear-gradient(rgba(121, 84, 17, 0.842), rgb(3, 3, 20));
+    margin-right: 40%;
+
+    padding: 5px;
+
     border-radius: 5px;
 }
 
