@@ -46,6 +46,7 @@ p {
 .half-width img {
     width: 70%;
     padding: 10%;
+    margin-right: 10px;
 
 }
 
