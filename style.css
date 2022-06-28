@@ -90,9 +90,12 @@ p {
 .dream-part h3 {
 
     margin-left: 0;
-    margin-right: 20%;
+    margin-right: 50%;
+    border-radius: 5px;
     padding: 5px 10px;
-    color: darkgoldenrod;
+    color: rgb(240, 183, 40);
+    background-color: rgb(121, 121, 121);
+
 
 }
 
@@ -167,4 +170,8 @@ p {
 
 footer {
     text-align: center;
+}
+
+#bigdream h2 {
+    margin-right: 65%;
 }
